@@ -1,0 +1,343 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    font-family: 'Roboto', sans-serif;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+span,
+a {
+    font-size: 24px;
+
+}
+
+.scren-one {
+    height: 80vh;
+}
+
+.aziz_work {
+    background-color: #3A3330;
+
+    .tuda_syda {
+        margin: 0 auto;
+        width: 20%;
+        height: 50px;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-weight: bold;
+        font-size: 20px;
+
+
+        .tuda_p {
+            cursor: pointer;
+            color: white;
+            border-bottom: 4px solid orange;
+
+        }
+
+        .syda_p {
+            cursor: pointer;
+            color: #9D9390;
+        }
+    }
+
+    .father {
+        width: 100%;
+        background-color: #3A3330;
+        display: flex;
+        align-items: center;
+
+        .son {
+            width: 500px;
+
+            .box {
+                margin: 40px 40px 30px 40px;
+                border-radius: 15px;
+                width: 400px;
+                height: 550px;
+                background-color: #26211E;
+                cursor: pointer;
+                background-image: url(../assets/bmw.jpg);
+                background-position: center;
+                background-size: 100%;
+                transition: 400ms;
+
+                .box_post {
+                    margin: 40px 40px;
+                    border-radius: 15px;
+                    width: 400px;
+                    height: 550px;
+                    background-color: #26211E;
+                    cursor: pointer;
+                    background-image: url(../assets/bmw.jpg);
+                    background-position: center;
+                    background-size: 245%;
+                    transition: 400ms;
+                }
+
+                .box_top {
+                    width: 100%;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+
+                    .name_logo {
+                        margin-top: 25px;
+                        margin-left: 40px;
+                        width: 150px;
+                    }
+
+                    .ball {
+                        position: absolute;
+                        width: 0px;
+                        height: 0px;
+                        top: 26px;
+                        left: 332px;
+                        border-radius: 40px;
+                        background-color: orangered;
+                        transition: 400ms;
+                    }
+
+                    .ball_post {
+                        position: absolute;
+                        width: 40px;
+                        height: 45px;
+                        top: 26px;
+                        left: 332px;
+                        border-radius: 40px;
+                        background-color: orangered;
+                        transition: 400ms;
+                    }
+
+                    .ball_cost {
+                        position: absolute;
+                        width: 80px;
+                        height: 45px;
+                        top: 26px;
+                        left: 292px;
+                        border-radius: 40px;
+                        background-color: orangered;
+                        transition: 400ms;
+                    }
+
+                    .add {
+                        position: absolute;
+                        width: 22px;
+                        top: 38px;
+                        left: 340px;
+                        transition: 600ms;
+                    }
+
+                    .add_post {
+                        position: absolute;
+                        width: 22px;
+                        top: 38px;
+                        left: 300px;
+                        transition: 600ms;
+                    }
+
+                    .buy {
+                        position: absolute;
+                        width: 0px;
+                        top: 0px;
+                        left: 340px;
+                        transition: 600ms;
+                    }
+
+                    .buy_post {
+                        position: absolute;
+                        width: 30px;
+                        top: 32px;
+                        left: 335px;
+                        transition: 600ms;
+                    }
+                }
+
+            }
+
+            .name {
+                padding-left: 40px;
+                padding-right: 150px;
+                font-weight: bold;
+                font-size: 20px;
+                color: white;
+            }
+
+            .for_price {
+                width: 220px;
+                height: 30px;
+                font-size: 17px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+                margin-left: 40px;
+
+                .price {
+                    color: white;
+                }
+
+                .new {
+                    padding-left: 10px;
+                    color: orangered;
+                }
+            }
+        }
+    }
+
+    .father_two {
+        display: none;
+
+        .son {
+            width: 500px;
+
+            .box {
+                margin: 40px 40px 30px 40px;
+                border-radius: 15px;
+                width: 400px;
+                height: 550px;
+                background-color: #26211E;
+                cursor: pointer;
+                background-image: url(../assets/bmw.jpg);
+                background-position: center;
+                background-size: 100%;
+                transition: 400ms;
+
+                .box_post {
+                    margin: 40px 40px;
+                    border-radius: 15px;
+                    width: 400px;
+                    height: 550px;
+                    background-color: #26211E;
+                    cursor: pointer;
+                    background-image: url(../assets/bmw.jpg);
+                    background-position: center;
+                    background-size: 245%;
+                    transition: 400ms;
+                }
+
+                .box_top {
+                    width: 100%;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+
+                    .name_logo {
+                        margin-top: 25px;
+                        margin-left: 40px;
+                        width: 150px;
+                    }
+
+                    .ball {
+                        position: absolute;
+                        width: 0px;
+                        height: 0px;
+                        top: 26px;
+                        left: 332px;
+                        border-radius: 40px;
+                        background-color: orangered;
+                        transition: 400ms;
+                    }
+
+                    .ball_post {
+                        position: absolute;
+                        width: 40px;
+                        height: 45px;
+                        top: 26px;
+                        left: 332px;
+                        border-radius: 40px;
+                        background-color: orangered;
+                        transition: 400ms;
+                    }
+
+                    .ball_cost {
+                        position: absolute;
+                        width: 80px;
+                        height: 45px;
+                        top: 26px;
+                        left: 292px;
+                        border-radius: 40px;
+                        background-color: orangered;
+                        transition: 400ms;
+                    }
+
+                    .add {
+                        position: absolute;
+                        width: 22px;
+                        top: 38px;
+                        left: 340px;
+                        transition: 600ms;
+                    }
+
+                    .add_post {
+                        position: absolute;
+                        width: 22px;
+                        top: 38px;
+                        left: 300px;
+                        transition: 600ms;
+                    }
+
+                    .buy {
+                        position: absolute;
+                        width: 0px;
+                        top: 0px;
+                        left: 340px;
+                        transition: 600ms;
+                    }
+
+                    .buy_post {
+                        position: absolute;
+                        width: 30px;
+                        top: 32px;
+                        left: 335px;
+                        transition: 600ms;
+                    }
+                }
+
+            }
+
+            .name {
+                padding-left: 40px;
+                padding-right: 150px;
+                font-weight: bold;
+                font-size: 20px;
+                color: white;
+            }
+
+            .for_price {
+                width: 220px;
+                height: 30px;
+                font-size: 17px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+                margin-left: 40px;
+
+                .price {
+                    color: white;
+                }
+
+                .new {
+                    padding-left: 10px;
+                    color: orangered;
+                }
+            }
+        }
+    }
+}
